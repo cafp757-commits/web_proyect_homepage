@@ -1,0 +1,137 @@
+.intro {
+  width: 830px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 148px;
+  padding-right: 302px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 0;
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    padding: 0;
+    width: 100%;
+    align-items: center;
+  }
+}
+
+.intro__title {
+  width: 830px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+  color: #ffffff;
+  margin: 92px 0 39.98px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    width: 707px;
+    font-size: 45px;
+    line-height: 49px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    width: 100%;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 auto 40px;
+  }
+}
+
+.intro__info {
+  width: 738px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #ffffff;
+  padding-right: 92px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__info,
+  .intro__author {
+    width: 100%;
+    max-width: 720px;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__info {
+    width: 100%;
+    padding-right: 0;
+    margin: 40px auto 32px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+.intro__author {
+  width: 732px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: right;
+  color: #ffffff;
+  margin: 10px 0 31.99px;
+  padding-right: 6px;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__author {
+    width: 100%;
+    max-width: 288px;
+    padding-right: 0;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 10px;
+    margin-bottom: 32px;
+  }
+}
+
+.intro__text {
+  width: 722px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  color: #ffffff;
+  padding-right: 10px;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    width: 100%;
+    max-width: 720px;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__text {
+    width: 100%;
+    padding-right: 0;
+    margin-top: 32px;
+    margin-bottom: 64px;
+  }
+}
