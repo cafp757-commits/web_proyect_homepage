@@ -10,13 +10,13 @@
   border-radius: 5px;
 }
 
-.ntf__button:hover {
+.nft__button:hover {
   transition: all 0.3s ease;
   background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
 
 @media screen and (max-width: 320px) {
-  .ntf__button {
+  .nft__button {
     grid-row: 6;
   }
 }
