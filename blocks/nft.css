@@ -1,8 +1,4 @@
-.place__button {
-  grid-column: 1;
-  grid-row: 3/ 4;
-}
-.ntf__button {
+.nft__button {
   text-decoration: none;
   padding: 15px;
   font-size: 18px;
