@@ -66,7 +66,7 @@
   margin: 0;
 }
 
-.place__artist__title {
+.place__artist-title {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -78,12 +78,12 @@
 }
 
 @media screen and (max-width: 320px) {
-  .place__artist__title {
+  .place__artist-title {
     grid-row: 2;
   }
 }
 
-.place__artist__name {
+.place__artist-name {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -95,7 +95,7 @@
   margin: 0;
 }
 @media screen and (max-width: 320px) {
-  .place__artist__name {
+  .place__artist-name {
     grid-row: 3;
   }
 }

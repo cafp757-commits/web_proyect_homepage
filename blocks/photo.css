@@ -24,12 +24,12 @@
   }
 }
 
-.photo__gallery {
+.photo-grid__gallery {
   width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-  .photo__gallery {
+  .photo-grid__gallery {
     object-fit: contain;
   }
 }
