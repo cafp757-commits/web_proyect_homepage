@@ -8,10 +8,13 @@ Una página web responsive para una galería de arte
 - CSS3
 - Flexbox
 - Media Query
+- Grid
+- Diseño Responsivo
+- Figma
 
 ## Descripción
 
-Página web responsiva que presenta información sobre la galería de arte Tripleten
+Adaptación fluida para las siguientes pantallas: Desktop (1280px) Tablet (768px) Móvil (320px)
 
 ## Autor
 

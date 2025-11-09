@@ -8,6 +8,13 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 780px) {
+  .page {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .page {
     padding-left: 16px;
