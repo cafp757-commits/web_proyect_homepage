@@ -109,7 +109,7 @@
   }
 }
 
-.place__image__container {
+.place__image-container {
   position: relative;
   width: 100%;
   height: 100%;
@@ -128,14 +128,14 @@
 }
 
 @media screen and (max-width: 320px) {
-  .place__image__container {
+  .place__image-container {
     grid-row: 3;
     width: 90%;
     object-fit: cover;
   }
 }
 
-.place__image_.place__image__container {
+.place__image_.place__image-container {
   opacity: 0.5;
 }
 
